@@ -1,0 +1,523 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Ajay/Dropbox/Paras/Siemens2013/header.tex",
+			"settings":
+			{
+				"buffer_size": 3734,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\\input{header.tex}\n\n%%%	Paper Guidelines\n%%%		Be written in English.\n%%%		Adhere to an 18-page limit. This limit includes the introduction, text, tables, data, illustrations, and appendices. References are not included in the 18-page limit.\n%%%		Be submitted on 8-1/2 X 11 inch single-sided sheets of paper, double-spaced, with page numbers at the bottom.\n%%%		Have page margins of at least 1 inch.\n%%%		Use 12 point or larger Arial or Times New Roman font for the body of the report.\n%%%		Captions accompanying pictures and graphs, as well as citations for references, may be single-spaced and in a smaller point size.\n\n\\newcommand{\\titleText}{Rapid Aerial Outdoor and 3D Indoor Mapping by Autonomous Quadrotor UAVs with Computer Vision Feature Targeting for Disaster Recovery}\n\n\\title{\\titleText}\n\\chead{\\footnotesize \\normalfont \\parbox{14cm} {\\centering{\\textit{\\MakeUppercase{\\titleText}}}} }\n\n% \\author{Paras Jain and Ajay Jain, Monta Vista High School}\n% \\date{October 3rd, 2013} % Activate to display a given date or no date (if empty),\n\n\n\\author{\\vspace{0ex}}\n\\date{\\vspace{-13ex}}\n\n\n\\begin{document}\n\\begin{onehalfspacing}\n	\\maketitle\n\\end{onehalfspacing}\n\n\n\\section{Introduction}						% 2-3 pages\n\\input{./sections/Introduction.tex}\n\n\\section{Materials and Methods}				% 2-5 pages\n\\input{./sections/MethodsAndMaterials.tex}\n\n\\section{Results}							% 4-5 pages\n\\input{./sections/Results.tex}\n\n\\section{Illustrations}						% 2-4 pages\n\\input{./sections/Illustrations.tex}\n\n\\section{Discussion}						% 3-4 pages\n\\input{./sections/Discussion.tex}\n\n\\section{Conclusions and Future Work}		% 1-3 pages\n\\input{./sections/ConclusionsAndFutureWork.tex}\n\n\\clearpage\n\n% \\section{References}						% Any length\n% \\input{./sections/References.tex}\n\n\\bibliographystyle{plainat}\n\\bibliography{references}\n% [1] (Figure 1) - $http://www.ted.com/talks/vijay_kumar_robots_that_fly_and_cooperate.html$\n\n\n%% TO READ\n% http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20090036330_2009036511.pdf (2009) - UAVs for tornado stuff\n\n\\end{document}\n",
+			"file": "paper.tex",
+			"file_size": 2036,
+			"file_write_time": 130206592552786003,
+			"settings":
+			{
+				"buffer_size": 2036,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Ajay/Dropbox/Paras/Siemens2013/sections/Introduction.tex",
+			"settings":
+			{
+				"buffer_size": 4806,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Ajay/Dropbox/Paras/Siemens2013/sections/Results.tex",
+			"settings":
+			{
+				"buffer_size": 389,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Ajay/Dropbox/Paras/Siemens2013/sections/MethodsAndMaterials.tex",
+			"settings":
+			{
+				"buffer_size": 2542,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Ajay/Dropbox/Paras/Siemens2013/sections/Discussion.tex",
+			"settings":
+			{
+				"buffer_size": 90,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Ajay/Dropbox/Paras/Siemens2013/sections/ConclusionsAndFutureWork.tex",
+			"settings":
+			{
+				"buffer_size": 461,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Ajay/Dropbox/Paras/Siemens2013/sections/Illustrations.tex",
+			"settings":
+			{
+				"buffer_size": 615,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 110.0,
+		"selected_items":
+		[
+			[
+				"build",
+				"Build: Build"
+			],
+			[
+				"pdf",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"latex",
+				"LaTexTools: Delete temporary files"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"hand",
+				"Snippet: handlebars template"
+			],
+			[
+				"handle",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"paca inst",
+				"Package Control: Install Package"
+			],
+			[
+				"paca",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Ajay/Dropbox/Paras/Siemens2013/references.bib",
+		"/C/Users/Ajay/Dropbox/Paras/Siemens2013/sections/Illustrations.tex",
+		"/C/Users/Ajay/Dropbox/Paras/Siemens2013/paper.bbl",
+		"/C/Users/Ajay/Dropbox/Paras/Siemens2013/paper.blg",
+		"/C/Users/Ajay/Dropbox/Paras/Siemens2013/paper.tex",
+		"/C/Users/Ajay/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Ajay/Dropbox/Paras/Siemens2013/.gitignore",
+		"/C/Users/Ajay/Dropbox/Paras/Siemens2013/paper.synctex.gz(busy)",
+		"/C/Users/Ajay/Code/xampp/htdocs/ember/route/app.js",
+		"/C/Users/Ajay/Code/xampp/htdocs/ember/route/index.html",
+		"/C/Users/Ajay/Code/xampp/htdocs/ember/js/libs/handlebars-1.0.0-rc.4.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"]\n",
+			"\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Ajay/Dropbox/Paras/Siemens2013/header.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "paper.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2036,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								939,
+								939
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/C/Users/Ajay/Dropbox/Paras/Siemens2013/sections/Introduction.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Ajay/Dropbox/Paras/Siemens2013/sections/Results.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								389,
+								389
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Ajay/Dropbox/Paras/Siemens2013/sections/MethodsAndMaterials.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Ajay/Dropbox/Paras/Siemens2013/sections/Discussion.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 90,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Ajay/Dropbox/Paras/Siemens2013/sections/ConclusionsAndFutureWork.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/Ajay/Dropbox/Paras/Siemens2013/sections/Illustrations.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"project": "paper.sublime-project",
+	"replace":
+	{
+		"height": 98.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"illus",
+				"sections\\Illustrations.tex"
+			],
+			[
+				"index",
+				"route\\index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 152.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

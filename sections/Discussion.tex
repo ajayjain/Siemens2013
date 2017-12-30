@@ -1,0 +1,35 @@
+% !TEX root = ../paper.tex
+
+\section{Discussion}						% 3-4 pages
+											% major lessons
+
+\subsection{Design Criteria Analysis}
+
+Our final prototype met all of our initial design criteria, satisfying the engineering goal.
+
+\begin{enumerate}
+	\item The UAV can withstand wind speeds up to 15 km/h without significant degradation in flight ability. Drifting does occur, however, and higher wind speeds may result in a drone becoming unpredictable. Winds past 30 km/h could result in the drone bailing due to inversion. However, given enough altitude, the drone can recover from free-fall.
+	\item A GPS unit, barometer, ultrasonic distance sensor and an accelerometer were used.
+	\item $\$500$ total net cost for a single unit
+	\item We included a 720p front camera for generating panoramas, 5 megapixel bottom facing phone camera for mapping, 240p stabilization camera. In panoramas, objects as small as $5$ cm can be resolved - this is an \textbf{order of magnitude better than satellite imagery} and allows for victim detection.
+%	\item Arduinos can interface with the drone to send additional data to the server if needed. However, we ruined a drone when a crash resulted in a short that destroyed one quadcopter.
+\end{enumerate}
+
+\subsection{Impact and Applications}
+
+\subsubsection{Disaster Response}
+Aerial maps allow for fast damage assessment. Imagery is automatically analyzed for faces and keypoints, then stitched and superimposed onto maps. Load is taken off emergency and recovery workers, allowing their efforts to be focused on investigating the detected interest areas. Up to date maps of fire, flood, earthquake and hurricane damaged areas are created where the delay from satellites is intolerable.
+
+\subsubsection{Search and Rescue}
+Since the PC server handles drone flight, operators only need to select a search area. This allows rapid situation assessment without having to wait for trained aircraft or helicopter pilots to arrive. Fast response is critical in search and rescue operations where survival chances decline very quickly
+
+\subsubsection{Indoor Mapping}
+Search and rescue teams can 3-dimensionally map the interior of damaged buildings to locate survivors without self-endangerment. The maneuverability of quadrotors allows navigation through doors, windows and skylights.
+
+\subsection{Comparison to Alternate Solutions}
+
+\begin{description}
+	\item[SATELLITES:] The final system produces images with up to 10 times higher angular resolution than the best available satellite imagery. A network of our UAVs can be deployed over a city immediately after a disaster, whereas imagery from satellites would not be available for several days.
+	\item[PILOTED AIRCRAFT:] A full scale helicopter can cover much more ground than an individual quadcopter, but must fly at a high altitude, limiting the resolution of imagery. The coverage limitation was addressed by developing a network of multiple drones that map a city in pieces and progressively enhance the resolution of devastated areas. Additionally, none of the alternate solutions address the problem of indoor mapping.
+	\item[OTHER UAVs:] Each of our quadrotor systems is under $\$500$, far more inexpensive than existing UAVs that have been used for search and rescue. Many alternate UAVs are piloted and simply return a video feed. This requires at least one operator per drone, when manpower should be focused on rescue.
+\end{description}

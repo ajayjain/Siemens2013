@@ -1,0 +1,45 @@
+\input{headerAbstract.tex}
+
+%The Abstract is a technical synopsis of the problem, methods, results, and conclusions. It should be double-spaced using 12 point or larger Arial or Times New Roman font, 100-200 words long, include the research project title, and be printed on its own page.
+
+%No identifying information, such as name, high school, or references to gender or research facilities should be included in the Abstract.
+
+%Sample Abstracts from previous winners can be found on the Siemens Foundation website.
+
+%The Abstract is not included in the 18-page limit for the Research Report.
+
+
+\newcommand{ \titleText } {Post-Disaster Recovery by Rapid High Resolution Aerial Imaging and Indoor 3D Mapping with Autonomous Quadrotor UAVs driven by Computer Vision Feature Targeting and Real-time Victim Recognition}
+
+\title{Abstract}
+\chead{\footnotesize \normalfont \parbox{16cm} {\centering{\textbf{\textsc{ \textrm{ \titleText } }}}} }
+\cfoot{}
+%\author{\vspace{0ex}}
+\date{\vspace{-14ex}}
+
+\begin{document}
+%\maketitle
+\section*{Abstract}
+\thispagestyle{fancy} % get header to render on first page (maketitle sets to plain)
+\noindent\textbf{INTRODUCTION:} \textbf{We created an autonomous quadrotor UAV system to: 1) quickly map outdoor disaster zones to prioritize rescue efforts and 2) create 3D maps of building interiors for remote diagnosis of trapped victims.}
+
+\noindent\textbf{PROBLEM:} Fresh aerial imagery allows first responders to target high-damage areas. However, satellites can take 8-10 days to reach the disaster area, and post-storm clouds obstruct clear view. Non-military satellite imagery is capped at a 50 cm angular resolution. Other imaging UAVs range from $\$10,000$ to over $\$100,000$.
+
+\noindent\textbf{ENGINEERING GOAL:} The design and construction of an affordable aerial photography system for rapid map acquisition coupled with indoor 3D scanning.
+
+\noindent\textbf{PROCESS:}
+\begin{enumerate}
+	\item A high altitude UAV autonomously captures imagery of an area.
+	\item Servers identify keypoints and stitch images together into map overlays.
+	\item Low altitude quadrotors capture high resolution panoramas at keypoint clusters.
+	\item Indoor 3D maps are generated with drone mounted RGB-D cameras.
+	\item Victims are automatically detected in images and reported to disaster responders.
+\end{enumerate}
+
+%\noindent\textbf{Methods and Materials:}
+%
+%After developing 3 main hardware prototypes, our final drone uses a self contained image and telemetry collection unit, while initially we used the Arduino microprocessor. Our system 1) captures low resolution imagery with a high altitude drone to 2) automatically identify damaged areas where 3) low altitude drones capture very high resolution imagery. Data is 4) presented on existing aerial mapping tools used by first responders. Within dangerous buildings, quadrotors with 3D cameras capture full 3D maps of building interiors where bodies are detected and sent to doctors for remote diagnosis. This technology saves the lives of first responders as they do not need to search inside a collapsing building.
+
+\noindent\textbf{IMPACT \& RESULTS:} We created a system that captures outdoor aerial imagery, first person panoramas and 3D indoor point clouds. Each quadrotor in the network costs $<\$500$. Features as small as 5 cm are discernible in our generated panoramas. \textbf{Our system has an order of magnitude better resolution than the best satellite imagery available.} Victims are automatically detected to speed the search process.
+
+\end{document}

@@ -1,0 +1,76 @@
+\input{headerAbstract.tex}
+
+%The Executive Summary presents the question asked, the methods used and the lessons learned. The summary on its own, separate from the Research Report should convey the essence of your project and should be understood by someone without scientific expertise. Do not simply replicate what you wrote in your Abstract. The difference between the Abstract and the Executive Summary is that the Executive Summary must be written in layperson (non-specialist) language. The summary will be used to explain your project to the general public and in preparing press releases for the media.
+
+%The Executive Summary must be double-spaced and use 12 point or larger Arial or Times New Roman font. No identifying information, such as name, high school or references to gender or research facilities should be included.
+
+%The Executive Summary may not exceed one page and is not included in the 18-page limit for the Research Report
+
+
+\newcommand{ \titleText } {Post-Disaster Recovery by Rapid High Resolution Aerial Imaging and Indoor 3D Mapping with Autonomous Quadrotor UAVs driven by Computer Vision Feature Targeting and Real-time Victim Recognition}
+
+\title{Executive Summary}
+\chead{\footnotesize \normalfont \parbox{16cm} {\centering{\textbf{\textsc{ \textrm{ \titleText } }}}} }
+\cfoot{}
+%\author{\vspace{0ex}}
+\date{\vspace{-12ex}}
+
+\begin{document}
+%\maketitle
+\section*{Executive Summary}
+\thispagestyle{fancy}
+
+
+
+\noindent
+\textbf{We built an autonomous drone for under \$500 to help save thousands of victims of floods, earthquakes, hurricanes and other disasters by automatically searching for victims, both indoors and outdoors.}
+Our drone produces aerial maps that are \textit{10 times higher resolution} than the best commercial satellite maps in the market, allowing disaster responders to \textbf{prioritize search and rescue efforts and assess the extent of damage after a disaster}. Victims are automatically recognized by the drones and are tagged for rescue. Each drone collaborates with other drones in its network to map a city rapidly.
+
+\noindent
+A version of the drone can navigate around the inside of a building, producing a 3D map of the interior of a building that may be too dangerous to enter. A victim inside a collapsing building can be located, potentially saving the life of an EMT or firefighter.
+
+\noindent
+Recent disasters where this technology would have been applicable to post-disaster response are Hurricane Sandy, the Fukushima Nuclear Disaster and the Boston Marathon bombing by automatically searching for victims, entering a radioactive hazard zone or searching for the perpetrators.
+
+\begin{figure}[h]
+	\begin{minipage}{.55\textwidth}
+		 \caption{Panoramic image from above rooftops}
+		 \label{fig:StellingStitch}
+		 \centering
+		 	\includegraphics[width=.95\linewidth]{illustrations/maps/stelling}
+	\end{minipage}
+	\begin{minipage}{.45\textwidth}
+ 		\caption{Generated 3D indoor model}
+ 		\label{fig:BedPointCloud}
+ 		\centering
+ 			\includegraphics[width=.95\linewidth]{illustrations/clouds/bed2}
+	\end{minipage}
+\end{figure}
+
+%\begin{figure}[h]
+%	\begin{minipage}{.55\textwidth}
+%	\caption{Map created from house flyover}
+%	\label{fig:HouseStitch}
+%	\centering
+%		\includegraphics[width=.95\linewidth]{illustrations/maps/house}
+%	\end{minipage}
+%	\begin{minipage}{.45\textwidth}
+%		 \caption{Panoramic image from above rooftops}
+%		 \label{fig:StellingStitch}
+%		 \centering
+%		 	\includegraphics[width=.95\linewidth]{illustrations/maps/stelling}
+% 		\caption{Generated 3D indoor model}
+% 		\label{fig:BedPointCloud}
+% 		\centering
+% 			\includegraphics[width=.95\linewidth]{illustrations/clouds/bed2}
+%	\end{minipage}
+%\end{figure}
+
+\begin{figure}[H]
+  \caption{Full panorama from a backyard sweep}
+  \label{fig:BackyardPanoStitch}
+  \centering
+    \includegraphics[width=\textwidth]{illustrations/maps/backyard_pano_mag}
+\end{figure}
+
+\end{document}

@@ -1,0 +1,56 @@
+\input{header.tex}
+
+%%%	Paper Guidelines
+%%%		Be written in English.
+%%%		Adhere to an 18-page limit. This limit includes the introduction, text, tables, data, illustrations, and appendices. References are not included in the 18-page limit.
+%%%		Be submitted on 8-1/2 X 11 inch single-sided sheet1s of paper, double-spaced, with page numbers at the bottom.
+%%%		Have page margins of at least 1 inch.
+%%%		Use 12 point or larger Arial or Times New Roman font for the body of the report.
+%%%		Captions accompanying pictures and graphs, as well as citations for references, may be single-spaced and in a smaller point size.
+
+\newcommand{ \titleText } {Post-Disaster Recovery by Rapid High Resolution Aerial Imaging and Indoor 3D Mapping with Autonomous Quadrotor UAVs driven by Computer Vision Feature Targeting and Real-time Victim Recognition}
+
+\title{ \titleText }
+\chead{\footnotesize \normalfont \parbox{16cm} {\centering{\textbf{\textsc{ \textrm{ \titleText } }}}} }
+
+% \author{Paras Jain and Ajay Jain, Monta Vista High School}
+% \date{October 3rd, 2013} % Activate to display a given date or no date (if empty),
+
+
+\author{\vspace{0ex}}
+\date{\vspace{-13ex}}
+
+
+\begin{document}
+\begin{onehalfspacing}
+	\maketitle
+\end{onehalfspacing}
+
+\input{./sections/Introduction.tex}
+\input{./sections/MethodsAndMaterials.tex}
+\input{./sections/Results.tex}
+\input{./sections/Illustrations.tex}
+\input{./sections/Discussion.tex}
+\input{./sections/ConclusionsAndFutureWork.tex}
+
+\clearpage
+
+% \section{References}						% Any length
+% \input{./sections/References.tex}
+
+\section{References}
+
+	\subsection{References}
+	\singlespacing\bibliography{bibliography}
+	
+%	\subsection{Background}
+	\singlespacing\nocite{*}
+%	\nocite{NeuroForge:OpenCV}
+	
+	% [1] (Figure 1) - $http://www.ted.com/talks/vijay_kumar_robots_that_fly_and_cooperate.html$
+	
+	
+	%% TO READ
+	% http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20090036330_2009036511.pdf (2009) - UAVs for tornado stuff
+
+\end{document}
